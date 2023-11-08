@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import React from 'react';
-import ProductDetail from './components/ProductDetail';
+import DetalleDeProducto from './components/DetalleDeProducto';
 
 function ProductPage() {
   return (
