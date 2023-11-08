@@ -1,23 +1,20 @@
 import logo from './logo.svg';
 import React from 'react';
-import DetalleDeProducto from './Componentes/DetalleDeProducto';
+import ProductDetail from './components/ProductDetail';
 
-function App() {
-  const DatosProducto=
- 
-  const name: "Nombre del Producto";
-  description: "Descripción del Producto";
-  price: 100.0;
-  sku: "SKU123456";
-  quantity: 10;
-  
+function ProductPage() {
   return (
-    <div className="App">
-      <h1>Detalle del Producto</h1>     
-      <DetalleDeProducto={DatosProducto} />
-      
+    <div>
+      <h1>Página de detalle de productos</h1>
+      <ProductDetail
+        name="Nombre del producto"
+        description="Descripción del producto"
+        price="$99.99"
+        sku="12345"
+        quantity="10"
+      />
     </div>
   );
 }
 
-export default App;
+export default ProductPage;
