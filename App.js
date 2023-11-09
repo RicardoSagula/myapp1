@@ -6,7 +6,7 @@ function ProductPage() {
   return (
     <div>
       <h1>Página de detalle de productos</h1>
-      <ProductDetail
+      <DetalleDeProducto
         name="Nombre del producto"
         description="Descripción del producto"
         price="$99.99"
